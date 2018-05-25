@@ -2,20 +2,19 @@
 
 One year after completing a RPS game in Angular for a tech test for OVO energy I'm am redoing the test to see what I would do differently.
 
-##Planning
+## Planning
 
-####Basic Version
+#### Basic Version
 - uses local state in react
 - game needs to allow the user to play rps aginst the computer and determine a winner
 - logic must be unit tested
 - styling
-
-####Potential extras
+ Potential extras
 - save running total of scores - use redux?
 - style using styled components
 - integration tests using Cypress
 
-####Components 
+#### Components 
 - game board
 - weapons
 - play again
