@@ -1,35 +1,90 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Oswald"');
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Karla', sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
   text-align: center;
 }
-
-.Logo-spin {
-  animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
 }
-.App-logo {
-  height: 40vmin;
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+ul {
+  text-align: center;
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 15px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #f6201d;
+}
+
+button {
+  font-family: 'Karla', sans-serif;
+  background-color: white;
+  border: 2px solid #f6201d;
   cursor: pointer;
+  color: #f6201d;
+  transition: all 0.2s ease;
+  padding: 6px 12px;
+  outline: none !important;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+
+p span {
+  color: #f6201d;
+  text-transform: uppercase;
+}
+
+p.result  {
+  background-color: #f6201d;
+  color: white;
+  padding: 8px 12px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+button:last-of-type {
+  width: 100%;
+  clear: left;
+  margin-top: 20px;
+  display: block;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #f6201d;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game {
+  background-color: #dadada;
+  padding: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
 }
