@@ -5,7 +5,7 @@ function handleClick(e) {
     console.log('The link was clicked.');
 	}
 	
-class Button extends Component {
+class Button extends Component() {
 render() {
 		return (
 			<div>

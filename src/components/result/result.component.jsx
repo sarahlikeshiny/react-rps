@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Result extends Component {
+class Result extends Component(props) {
 	render() {
 		return (
 			<div>
-				<p className = "result"></p>
+				<p className = "result">{this.props.winner}</p>
 			</div>
         )
     }

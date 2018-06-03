@@ -9,7 +9,8 @@ One year after completing a RPS game in Angular for a tech test for OVO energy I
 - game needs to allow the user to play rps aginst the computer and determine a winner
 - logic must be unit tested
 - styling
- Potential extras
+
+ #### Potential extras
 - save running total of scores - use redux?
 - style using styled components
 - integration tests using Cypress
@@ -20,5 +21,12 @@ One year after completing a RPS game in Angular for a tech test for OVO energy I
 - play again
 - scoreboard
 
+## To run Locally
+This project was bootstrapped with <http://github.com/sw-yx/create-react-app-parcel>
 
-this project was bootstrapped with <http://github.com/sw-yx/create-react-app-parcel>
+### Install dependencies
+`yarn`
+### Run
+`yarn start`
+### Run tests
+`yarn test`
